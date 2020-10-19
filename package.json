@@ -1,0 +1,14 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "Background-Generator from Anderi Neagoie - Modified",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server" 
+  },
+  "author": "Albena Kostova",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}

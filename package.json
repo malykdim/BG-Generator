@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Background-Generator from Anderi Neagoie - Modified",
   "main": "script.js",
+  "homepage": "https://malykdim.github.io/BG-Generator",
   "scripts": {
-    "build": "browserify script.js > bundle.js && live-server" 
+    "build": "browserify script.js > bundle.js && live-server",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Albena Kostova",
   "license": "ISC",
